@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Felix-Project</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img height="100px" src="images/logo.png" alt="">
+        </div>
+        <div class="menu">
+            <li><a href="">NỮ</a>
+                <ul class="sub-menu">
+                    <li><a href="">Hàng mới về</a></li>
+                    <li><a href="">Collection</a></li>
+                    <li><a href="">Áo</a>
+                        <ul>
+                            <li><a href="">Áo Sơ mi</a></li>
+                            <li><a href="">Áo Thun</a></li>
+                            <li><a href="">Áo Vest</a></li>
+                            <li><a href="">Áo Khoác</a></li>
+                            <li><a href="">Áo Len</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Quần</a>
+                        <ul>
+                            <li><a href="">Quần Jean</a></li>
+                            <li><a href="">Quần Lửng</a></li>
+                            <li><a href="">Quần Dài</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="">NAM</a></li>
+            <li><a href="">TRẺ EM</a></li>
+            <li><a href="">SALE</a></li>
+            <li><a href="">KHẨU TRANG</a></li>
+            <li><a href="">BST</a></li>
+            <li><a href="">THÔNG TIN</a></li>
+        </div>
+        <div class="others">
+            <li><input placeholder="Tìm kiếm" type="text"><i class="fas fa-search"></i></li>
+            <li><a href=""><i class="fa fa-paw"></i></a></li>
+            <li><a href=""><i class="fa fa-user"></i></a></li>
+            <li><a href=""><i class="fa fa-shopping-bag"></i></a></li>
+        </div>
+    </header>
+    <!-- Delivery -->
+    <section class="delivery">
+        <div class="container">
+            <div class="delivery-top-wrap">
+                <div class="delivery-top">
+                    <div class="delivery-top-delivery delivery-top-item">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="delivery-top-address delivery-top-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="delivery-top-payment delivery-top-item">
+                        <i class="fas fa-money-check"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="delivery-content row">
+                <div class="delivery-content-left">
+                    <p>Vui lòng chọn địa chỉ giao hàng</p>
+                    <div class="delivery-content-left-login row">
+                        <i class="fas fa-sign-in-alt"></i>
+                        <p>Đăng nhập (Nếu bạn đã có tài khoản của FELIX)</p>
+                    </div>
+                    <div class="delivery-content-left-customer row">
+                        <input checked name="loaikhach" type="radio">
+                        <p><span style="font-weight: bold;">Khách lẻ</span>(Nếu bạn không muốn lưu lại thông tin)</p>
+                    </div>
+                    <div class="delivery-content-left-signup row">
+                        <input name="loaikhach" type="radio">
+                        <p><span style="font-weight: bold;">Đăng ký</span>(Tạo mới tài khoản với thông tin bên dưới)</p>
+                    </div>
+                    <div class="delivery-content-left-input-top row">
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Họ tên <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Điện thoại <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Tỉnh/Tp <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Quận/Huyện <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="delivery-content-left-input-bottom">
+                        <label for="">Phường/Xã <span style="color: red;">*</span></label>
+                            <input type="text">
+                    </div>
+                    <div class="delivery-content-left-input-bottom">
+                        <label for="">Địa chỉ <span style="color: red;">*</span></label>
+                            <input type="text">
+                    </div>
+                    <div class="delivery-content-left-button row">
+                        <a href=""><span>&#171;</span><p>Quay lại giỏ hàng</p> </a>
+                        <button><p style="font-weight: bold;">THANH TOÁN GIAO HÀNG</p></button>
+                    </div>
+                </div>
+                <div class="delivery-content-right">
+                    <table>
+                        <tr>
+                            <th>Tên sản phẩm</th>
+                            <th>Giảm giá</th>
+                            <th>Số lượng</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                        <tr>
+                            <td>Áo polo kẻ ngang MS 57E2940</td>
+                            <td>-30%</td>
+                            <td>1</td>
+                            <td><p>590.000 <sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td>Áo nam kẻ ngang MS 57E2940</td>
+                            <td>-40%</td>
+                            <td>1</td>
+                            <td><p>690.000 <sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="font-weight: bold;">Tổng</td>
+                            <td style="font-weight: bold;"><p>1.280.000 <sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="font-weight: bold;">Thuế VAT</td>
+                            <td style="font-weight: bold;"><p>20.000 <sup>đ</sup></p></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="font-weight: bold;">Tổng tiền hàng</td>
+                            <td style="font-weight: bold;"><p>1.300.000 <sup>đ</sup></p></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- app-container -->
+    <section class="app-container">
+        <p>Tải ứng dụng Felix</p>
+        <div class="app-google">
+            <img src="./images/appstore.png" alt="">
+            <img src="./images/googleplay.png" alt="">
+        </div>
+        <p>Nhận bản tin Felix</p>
+        <input type="text" placeholder="Nhập email của bạn...">
+    </section>
+<!-- footer -->
+<div class="footer-top">
+    <li><a href=""><img src="./images/dathongbao.png" alt=""></a></li>
+    <li><a href="">Liên hệ</a></li>
+    <li><a href=""></a>Tuyển dụng</li>
+    <li><a href=""></a>Giới thiệu</li>
+    <li>
+        <a href=""><img src="./images/facebook.png" alt=""></a>
+        <a href=""><img src="./images/twitter.png" alt=""></a>
+        <a href=""><img src="./images/youtube.png" alt=""></a>
+    </li>
+</div>
+<div class="footer-center">
+    <p>Công ty Cổ phần Felix với số đăng ký kinh doanh: 0123456789 <br>
+        Địa chỉ đăng ký: P.Hưng lợi, Q.Ninh Kiều, TP.Cần Thơ, Việt Nam - 0932810785 <br>
+        Đặt hàng online : <b>0932810785</b>.
+    </p>
+</div>
+<div class="footer-bottom">
+    Design By Nguyễn Âu Dương
+</div>
+
+</body>
+
+</html>
