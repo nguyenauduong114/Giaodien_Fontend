@@ -3,7 +3,7 @@ Cách truy cập vào trang.
  Trang index:
  https://nguyenauduong114.github.io/Giaodien_Fontend/index
  
- Trang cart:  
+ Trang cart:
  https://nguyenauduong114.github.io/Giaodien_Fontend/cart
  
  Trang cartegory:
